@@ -46,8 +46,6 @@ function onGalleryClick (event){
     }
 };
 
-
-
 galleryContainer.insertAdjacentHTML("beforeend", galleryItemsMarkup(galleryItems));
 galleryContainer.addEventListener('click', onGalleryClick);
 console.log(galleryItems);
